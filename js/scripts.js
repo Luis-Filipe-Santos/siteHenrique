@@ -165,11 +165,11 @@ $( document ).ready(function() {
 
     if(btnId == 'about-menu') {
       scrollTo = aboutSection;
-    } else if(btnId == 'services-menu') {
+    } else if(btnId == 'info-menu') {
       scrollTo = servicesSection;
-    } else if(btnId == 'team-menu') {
+    } else if(btnId == 'andamento-menu') {
       scrollTo = teamSection;
-    } else if(btnId == 'portfolio-menu') {
+    } else if(btnId == 'realizado-menu') {
       scrollTo = portfolioSection;
     } else if(btnId == 'contact-menu') {
       scrollTo = contactSection;
@@ -178,7 +178,7 @@ $( document ).ready(function() {
     }
 
     $([document.documentElement, document.body]).animate({
-        scrollTop: $(scrollTo).offset().top - 70
+        scrollTop: $(scrollTo).offset().top - 220
     }, 1500);
   });
 
