@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  padding: 70px 0;
+  padding: 0;
 }
 
 p, li {
@@ -16,9 +16,13 @@ p, li {
   font-size: 14px;
 }
 
+a {
+  font-size: 20px;
+} 
+
 /* Barra de navegação */
 header, .navbar {
-  background-color: #353D41;
+  background-color: #1b8acc;
 }
 
 #nav-container {
@@ -27,7 +31,9 @@ header, .navbar {
 }
 
 #logo {
-  width: 75px;
+  width: 350px;
+  height: 200px;
+  padding: 0;
 }
 
 .navbar-brand {
@@ -54,7 +60,7 @@ header, .navbar {
 /* Slider */
 
 .container-fluid {
-  padding: 0;
+  padding: 300px;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
